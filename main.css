@@ -1883,7 +1883,7 @@ padding-top: 20px;
 
     width: 200px;
     height: 50px;
-    top: 440px;
+    top: 450px;
     z-index: 3;
     position: absolute;
     background-color: teal;
@@ -1956,7 +1956,7 @@ padding-top: 20px;
     width: 200px;
     height: 50px;
     display: flex;
-    top: 460px;
+    top: 480px;
     background-color: teal;
     
     justify-content: center;
@@ -1992,6 +1992,7 @@ padding-top: 20px;
     bottom: 0px;
     background-color: black;
     padding-left: 40px;
+    padding-right: 40px;
     padding-top: 100px;
     position: relative;
     z-index: 2;
@@ -2034,7 +2035,7 @@ padding-top: 20px;
     background-position: 40%;
 }
 .usability .small-button {
-    margin-top: 85px;
+    margin-top: 105px;
 }
 .usability .core {
    margin-top: 10px;
@@ -2558,7 +2559,10 @@ padding-right: 40px;
 }
 
 .usability .small-button {
-    top: 470px;
+    top: 480px;
+}
+.new-elektrik .close-button {
+    top: 1320px;
 }
 
 .nav-box {
