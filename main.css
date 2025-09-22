@@ -324,6 +324,9 @@ span {
     z-index: 3;
    
     display: flex;
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+      position: relative;
+
 }
 
 
@@ -363,8 +366,8 @@ span {
 
 .feature2 h3 {
     position: relative;
-    top: 650px;
-    left: 650px;
+    top: 640px;
+    left: 670px;
 }
 
 .feature3 { 
@@ -454,10 +457,15 @@ span {
 
 .services {
     width: 100%;
-    height: 550px;
+    height: 700px;
     display: flex;
     background: linear-gradient(180deg, rgba(184, 115, 51, 1) 10%, rgba(0, 0, 0, 1) 100% );
     position: relative;
+      clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+      margin-top: -150px;
+      padding-top: 120px;
+      z-index: 1;
+
 }
 .services1 {
     width: 20%;
@@ -623,7 +631,7 @@ span {
     height: 50px;
     width: 300px;
     position: relative;
-    top: 90px;
+    top: 70px;
     display: flex;
 }
 .core .feature-small1 p {
@@ -639,7 +647,7 @@ span {
     background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     position: relative;
     overflow: hidden;
     transform: rotate(45deg);
@@ -654,11 +662,11 @@ span {
 .image-holder::before {
     content: "";
     position: absolute;
-    top: -30%; left: -30%; right: -50%; bottom: -10%;
-    background: url(Img/Home\ Page.svg);
+    top: 5%; left: 35%; right: 25%; bottom: 5%;
+    background: url(Img/Elektrik.png);
     background-repeat: no-repeat;
     transform: rotate(-45deg);
-    background-size: 100%;
+    background-size: 150px;
 }
 
 .elektrik h3, .usability h3 {
@@ -679,7 +687,7 @@ span {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 130px;
+    top: 100px;
     cursor: pointer;
     z-index: 5;
     border-style: solid;
@@ -739,7 +747,7 @@ span {
     background-size: contain;
     display: flex;
     border-style: solid;
-    border-color: none;
+    border-color: white;
     margin-bottom: 10px;
 }
 .bigbox-header {
@@ -761,6 +769,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+   
 
 }
 
@@ -932,9 +941,10 @@ padding-right: 0px;
 
 }
 .avatar .small-button {
-    top: 550px;
+    top: 520px;
     position: absolute;
 }
+
 .image-holder2 {
     width: 500px;
     height: 550px;
@@ -1054,7 +1064,7 @@ padding-top: 15px;
     background-position: top;
     position: relative;
     overflow: hidden;
-    top: 0px;
+    top: -50px;
     right: -190px;
     transform: rotate(45deg);
     border-style: solid;
@@ -1069,6 +1079,9 @@ padding-top: 15px;
     transform: rotate(-45deg);
     background-size: 200px;
     background-position: 40%;
+}
+.usability .small-button {
+    top: 110px;
 }
 .new-usability {
     width: 100%;
@@ -1527,7 +1540,7 @@ padding-top: 20px;
     height: 40%;
     display: flex;
     z-index: 2;
-     padding-left: 40px;
+     padding-left: 25px;
     padding-top: 120px;
     padding-right: 120px;
     flex-direction: column;
@@ -1571,7 +1584,7 @@ padding-top: 20px;
     height: 50px;
     position: relative;
     top: 340px;
-    right: 10px;
+    padding-left: 0px;
     display: flex;
 }
 .feature-final {
@@ -1674,6 +1687,7 @@ padding-top: 20px;
     background: rgb(0, 255, 255);
     background: linear-gradient(180deg, rgba(184, 115, 51, 1) 10%, rgba(0, 0, 0, 1) 100% );
     position: relative;
+    padding-top: 160px;
 }
 
     .services1 {
@@ -1784,7 +1798,7 @@ padding-top: 20px;
     height: 50%;
     background-color: black;
     position: relative;
-    padding-left: 40px;
+    padding-left: 25px;
     padding-top: 40px;
     z-index: 3;
 
@@ -1824,7 +1838,7 @@ padding-top: 20px;
 .image-holder{
     width: 450px;
     height: 400px;
-    background-image: url(Img/Elektrik\ Eel.png);
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -1836,12 +1850,21 @@ padding-top: 20px;
     z-index: 3;
     
 }
+.image-holder::before {
+    content: "";
+    position: absolute;
+    top: 5%; left: 35%; right: 25%; bottom: 5%;
+    background: url(Img/Elektrik.png);
+    background-repeat: no-repeat;
+    transform: rotate(-45deg);
+    background-size: 110px;
+}
 
 .small-button {
 
     width: 200px;
     height: 50px;
-    top: 450px;
+    top: 410px;
     z-index: 3;
     position: absolute;
     background-color: teal;
@@ -1851,6 +1874,14 @@ padding-top: 20px;
 .small-button h3 {
     left: 0px;
 }
+.elektrik .core {
+    top: 70px;
+}
+
+#photoshop {
+    background-size: 100%;
+    background-repeat: no-repeat;
+} 
 
 .avatar {
     width: 100%;
@@ -1890,7 +1921,7 @@ padding-top: 20px;
     position: relative;
     bottom: 0px;
     z-index: 3;
-    padding-left: 40px;
+    padding-left: 25px;
     padding-right: 35px;
     order: 1;
 
@@ -1914,7 +1945,7 @@ padding-top: 20px;
     width: 200px;
     height: 50px;
     display: flex;
-    top: 480px;
+    top: 460px;
     background-color: teal;
     
     justify-content: center;
@@ -1922,7 +1953,7 @@ padding-top: 20px;
     position: absolute;
     cursor: pointer;
     z-index: 4;
-    left: 40px;
+    left: 25px;
 }
 .usability {
     width: 100%;
@@ -1949,9 +1980,9 @@ padding-top: 20px;
     height: 50%;
     bottom: 0px;
     background-color: black;
-    padding-left: 40px;
+    padding-left: 25px;
     padding-right: 40px;
-    padding-top: 100px;
+    padding-top: 50px;
     position: relative;
     z-index: 2;
 }
@@ -1976,7 +2007,7 @@ padding-top: 20px;
     background-size: cover;
     background-position: top;
     position: relative;
-        margin-top: -220px;
+        margin-top: -180px;
         left: 120px;
 
 
@@ -1993,7 +2024,7 @@ padding-top: 20px;
     background-position: 40%;
 }
 .usability .small-button {
-    margin-top: 105px;
+    margin-top: 395px;
 }
 .usability .core {
    margin-top: 10px;
@@ -2278,9 +2309,6 @@ padding-top: 20px;
     visibility:visible;
 }
 
-
-
-
 .new-elektrik {
     width: 100%;
     height: 2200px;
@@ -2394,7 +2422,6 @@ padding-left: 15px;
     display: flex;
     flex-direction: column;
  
-    
 }
 
 .new-avatar1 {
@@ -2418,7 +2445,6 @@ padding-top: 80px;
     height: 40%;
     background-color: none;
         padding-top: 70px;
-
     
 }
 
@@ -2439,7 +2465,6 @@ padding-top: 80px;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
- 
     
 }
 
@@ -2498,18 +2523,27 @@ padding-right: 40px;
 
     .feature4 {
    
-    right: 25px;
+    right: 10px;
     
 }
 
 .elektrik .small-button {
 
-        top: 470px;
+        top: 430px;
 
 }
+.elektrik .core, .avatar .core, .usability .core {
+    right: 10px;
+}
+.new-elektrik2 {
+    padding-top: 160px;
+}
+
 
 .avatar .small-button {
-    top: 500px;
+    top: 480px;
+    
+   
 }
 
 .image-holder2 {
@@ -2517,7 +2551,7 @@ padding-right: 40px;
 }
 
 .usability .small-button {
-    top: 480px;
+    top: 120px;
 }
 .new-elektrik .close-button {
     top: 1320px;
@@ -2767,7 +2801,7 @@ padding-right: 40px;
     height: 50px;
     position: relative;
     top: 300px;
-    right: 20px;
+    right:  10px;
     display: flex;
 }
 .feature-final {
@@ -3037,7 +3071,7 @@ padding-right: 40px;
 .image-holder{
     width: 450px;
     height: 400px;
-    background-image: url(Img/Elektrik\ Eel.png);
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -3048,6 +3082,15 @@ padding-right: 40px;
 
     z-index: 3;
     
+}
+.image-holder::before {
+    content: "";
+    position: absolute;
+    top: 5%; left: 35%; right: 25%; bottom: 5%;
+    background: url(Img/Elektrik.png);
+    background-repeat: no-repeat;
+    transform: rotate(-45deg);
+    background-size: 110px;
 }
 
 
