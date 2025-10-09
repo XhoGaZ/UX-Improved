@@ -2535,6 +2535,10 @@ padding-right: 40px;
 .elektrik .core, .avatar .core, .usability .core {
     right: 10px;
 }
+#javascript {
+    right: 15px;
+    position: relative;
+}
 .new-elektrik2 {
     padding-top: 160px;
 }
@@ -2895,7 +2899,7 @@ padding-right: 40px;
     }
     .core {
     height: 50px;
-    width: 300px;
+    width: 330px;
     position: relative;
     top: 90px;
     right: 20px;
@@ -2903,6 +2907,11 @@ padding-right: 40px;
 }
 .core .feature-small0 p {
     left: 5px;
+    
+}
+#javascript {
+    right: 15px;
+    position: relative;
 }
    
 
